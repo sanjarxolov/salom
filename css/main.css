@@ -1,0 +1,44 @@
+.header{
+    margin-top: 20px;
+}
+
+.contener{
+    width: 1280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+
+}
+
+.header .contener{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav__li{
+    padding-left: 30px;
+}
+
+
+.nav__link{
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+text-decoration: none;
+}
+
+.nav__link:hover{
+    color: blue;
+    text-decoration: underline;
+}
